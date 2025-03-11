@@ -1,0 +1,25 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: pink;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+        background-image: url("'.WEBP");
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-attachment: scroll;
+      }
+h1{
+    color: brown;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+#p1{
+    width: 400px;
+    height: 200px;
+    border: 2px solid red;
+}
