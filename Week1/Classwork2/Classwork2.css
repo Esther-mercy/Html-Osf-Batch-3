@@ -48,9 +48,7 @@ body{
 }
 /* leftupright text */
 .left-text{
-    position: absolute;
     right: -10px;
-    top: 300px;
     transform: rotate(-90deg);
     font-size: 14px;
     color: green;
@@ -59,9 +57,7 @@ body{
 }
 /* rightupright text */
 .right-text{
-    position: absolute;
     right: -10px;
-    top: 300px;
     transform: rotate(-90deg);
     font-size: 14px;
     color: green;
