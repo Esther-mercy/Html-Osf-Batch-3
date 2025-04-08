@@ -169,3 +169,11 @@ margin-right: 155px;
     border-radius: 3px;
     border: none;
 }
+@media screen and ( max-width: 480px){
+ body{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+ }
+    
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animate{
+            width: 200px;
+            height: 100px;
+            background-color: red;
+            transition-property: width;
+            transition-timing-function: 6s;
+            transition-delay: ease;
+        }
+        .animate:hover{
+            width: 400px;
+            transform: scale(2);
+        }
+        @keyframes cs{
+            0%{ background-color: #ff0000; left: 0px; top: 0px;}
+            25%{ background-color: yellow; left: 200px; top: 200px; transform: rotateY(90deg);}
+            50%{ background-color: black; left: 0px; top: 200px;}
+            75%{ background-color: blue; left: 0px; top: 0px;}
+           100%{ background-color: aqua; left:200px; top: 0px;}
+        }
+       
+        .ani{
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color:palevioletred; 
+            animation-name: cs;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-delay: 2s;
+        }
+        .buttons{
+            display: flex;
+          justify-content: center;
+        }
+        input{
+            width: 300px;
+            height: 30px;
+        }
+        input[type="Submit"]{
+            width: 100px;
+
+        }
+        .forms label{
+            color: blue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: medium;
+        }
+        @keyframes oh {
+  from {#ff0000; left: 0px; top: 0px;}
+  to  {black; left: 0px; top: 200px;}
+}
+ .button{
+  animation-name: oh;
+  animation-duration: 4s;
+}
+        </style>
+    </head>
+    <body>
+        <div class="animate">animate
+</div>
+<div class="ani">move</div>
+<div class="forms">
+    <form>
+        <label>First-Name</label>
+        <input type="text" name="first">
+        <label>Valid Email</label>
+        <input type="email" name="email">
+        <label>Password</label>
+        <input type="password" name="password">
+        <input type="Submit" value="submit">
+
+    </form>
+</div>
+<br><br><div class="buttons">
+   <button class="sign-button">Sign In</button>
+   <button class="login-button">Login</button>
+</div>
+    </body>
+
+</html>

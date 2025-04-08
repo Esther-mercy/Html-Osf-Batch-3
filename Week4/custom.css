@@ -1,0 +1,12 @@
+.custom{
+    height: 300px;
+   background-color: aquamarine !Important;
+}
+
+.cont1, .cont2, .cont3, .cont4{
+background-color: palevioletred;
+max-height: 400px;
+max-width: 300px;
+margin: 2px;
+padding: 10px;
+}

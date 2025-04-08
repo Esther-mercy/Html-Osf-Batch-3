@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1 id="demo"> Best Student</h1>
+    <p>My first paragraph</p>
+    <button onclick="sprint()">Print</button>
+    <!-- <script></script> -->
+     
+    <script>
+        document.getElementById("demo").innerHTML = "Best Student";
+        let dem = document.getElementById("demo");
+        dem.style.color ="red"
+        window.alert("Welcome")
+        console.log(dem)
+        console.log("dem")
+        function sprint(){
+            window.print()
+        }
+        let x = 5
+        let y = 6
+        if(x + y >= 10){
+            console.log("result is low")
+        } else{console.log("passed")}
+        console.log("john doe")
+        console.log("john is " + x +" years old")
+    </script>
+</body>
+</html>
