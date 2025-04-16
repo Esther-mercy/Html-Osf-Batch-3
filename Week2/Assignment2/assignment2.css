@@ -11,7 +11,7 @@
 }
 
 .TWO{
-   background-color: rgb(92, 92, 86)
+   background-color: rgb(92, 92, 86);
     width: 30%;
     height: 300px;
     float: left;
@@ -20,7 +20,7 @@
     margin: 10px 10px 0px 10px;
 }
 .THREE{
-   background-color: rgb(92, 92, 86)
+   background-color: rgb(92, 92, 86);
     width: 30%;
     height: 300px;
     float: left;
