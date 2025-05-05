@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="signinContainer">
+        <h2>Sign In</h2>
+        <input type="text" id="signin-username" placeholder="Username"><br><br>
+        <input type="password" id="signin-password" placeholder="Password"><br><br>
+        <button id="signup-button">Sign In</button>
+
+    </div>   
+    <script>
+        const signContainer = document.getElementById('signinContainer');
+        if (){
+            signinContainer.style.backgroundColor = 'peach';
+            signinContainer.style.padding = '20px'
+            signinContainer.style.borderRadius = '10px';
+            signinContainer.style.display = 'block'
+            signinContainer.style.position = 'absolute';
+            signinContainer.style.top = '50%'
+            signinContainer.style.left = '50%';
+        }
+
+        function signin() {
+            const username = document.getElementById('signin-username').value; 
+            const password = document.getElementById('signin-password').value; 
+            if (username && password) {
+                alert('Signed in successfully');
+            } else {
+                alert('Please fill all fields');
+            }
+
+        }
+        const signinButton = document.getElementById('signin-button')
+        if(signinButton){
+            sigininButton.addEventListener('click', signIn);
+        }
+    </script>
+</body>
+</html>
